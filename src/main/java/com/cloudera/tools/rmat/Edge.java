@@ -80,7 +80,7 @@ public class Edge implements WritableComparable<Edge> {
 	}
 
 	public String toString() {
-		return "(" + from + "," + to + ")";
+		return from + "," + to;
 	}
 
 	public static class GroupingComparator extends WritableComparator {
